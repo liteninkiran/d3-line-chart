@@ -1,4 +1,25 @@
-<!-- Main Content -->
-<div class="container">
-    <router-outlet></router-outlet>
-</div>
+<mat-sidenav-container fullscreen>
+
+    <!-- Vertical Side-Nav Menu -->
+    <mat-sidenav #sidenav class="sidenav" autoFocus="false" mode="over">
+        <mat-nav-list (click)="sidenav.close()">
+            <app-navbar-links></app-navbar-links>
+        </mat-nav-list>
+    </mat-sidenav>
+
+    <!-- Horizontal Toolbar -->
+    <mat-toolbar color="primary">
+
+        <!-- Burger Menu Icon -->
+        <button mat-icon-button (click)="sidenav.open('mouse')">
+            <mat-icon>menu</mat-icon>
+        </button>
+
+    </mat-toolbar>
+
+    <!-- Main Content -->
+    <div class="container">
+        <router-outlet></router-outlet>
+    </div>
+
+</mat-sidenav-container>
