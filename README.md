@@ -13,8 +13,6 @@
 3. Add other packages:
 
 	- `npm install @angular/cdk`
-	- `npm install @angular/material-moment-adapter@16.2.14`
-	- `npm install moment`
 	- `npm install d3`
 	- `npm install ngx-colors`
 	- `npm install --save-dev @types/d3`
