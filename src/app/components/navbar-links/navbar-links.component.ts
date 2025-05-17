@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NavbarLink } from 'src/app/types/internal';
 
 @Component({
     selector: 'app-navbar-links',
@@ -7,7 +8,7 @@ import { Component } from '@angular/core';
 })
 export class NavbarLinksComponent {
 
-    public config: IConfig[] = [
+    public config: NavbarLink[] = [
         {
             link: '/home',
             icon: 'home',
@@ -19,10 +20,4 @@ export class NavbarLinksComponent {
             text: 'Scratch',
         },
     ]
-}
-
-interface IConfig {
-    link: string,
-    icon: string,
-    text: string,
 }
