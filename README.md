@@ -1,27 +1,48 @@
-# D3LineChart
+1. Create Angular app:
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+	`ng new d3-line-chart --routing --style=scss --skip-tests`
 
-## Development server
+2. Add Angular Materials:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+	`ng add @angular/material`
 
-## Code scaffolding
+	- Choose a prebuilt theme name, or "custom" for a custom theme: Purple/Green
+	- Set up global Angular Material typography styles? Yes
+	- Include the Angular animations module? Include and enable animations
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+3. Add other packages:
 
-## Build
+	- `npm install @angular/cdk`
+	- `npm install @angular/material-moment-adapter@16.2.14`
+	- `npm install moment`
+	- `npm install d3`
+	- `npm install ngx-colors`
+	- `npm install --save-dev @types/d3`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+4. Update repo:
 
-## Running unit tests
+	- `git add .`
+	- `git commit -m "Add packages"`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+5. Push to Git:
 
-## Running end-to-end tests
+	- `git remote add origin https://github.com/....`
+	- `git push -u origin master`
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Update repo for each step from here
 
-## Further help
+6. Add material module
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+7. Add home page
+
+8. Add navbar
+
+9. Add scratch page
+
+10. Add mock data & types
+
+11. Add mock data helper functions
+
+12. Add more D3 types
+
+13. Add D3 services
