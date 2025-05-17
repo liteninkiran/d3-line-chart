@@ -13,6 +13,11 @@ export class NavbarLinksComponent {
             icon: 'home',
             text: 'Home',
         },
+        {
+            link: '/scratch',
+            icon: 'construction',
+            text: 'Scratch',
+        },
     ]
 }
 
