@@ -1,4 +1,4 @@
-import { ChartData } from '../types/d3';
+import { ChartData } from '../types/d3/d3';
 import { MockData, DateRange } from '../types/mock-data';
 import { dataset1 } from './chart-data';
 
